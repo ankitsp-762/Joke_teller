@@ -25,7 +25,7 @@ function tellMe(joke){
     });
 }
 
-// get joke from joe API
+// get joke from joke API
 async function getJokes(){
     let Joke='';
     const ApiUrl='https://v2.jokeapi.dev/joke/Programming,Miscellaneous?blacklistFlags=nsfw,religious,political,racist,sexist,explicit';
